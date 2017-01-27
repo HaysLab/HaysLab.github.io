@@ -1,9 +1,77 @@
-<html lang="en">
-    <head>
-        <title>James Hays Lab @ Georgia Tech</title>
-    </head>
+---
+layout: default
+---
 
-    <body>
-        Work In Progress
-    </body>
-</html>
+<div class="home">
+
+  <h1 class="page-heading">Principal Investigators</h1>
+    {% for member in site.data.members.pi.members %}
+
+    {{ member.name }}
+    <br/>
+    <img src="{% if member.picture_url.size != 0 %}{{ member.picture_url }}{% else %}https://robohash.org/HaysLab{% endif %}"
+         height="{{site.image_height}}" width="{{site.image_width}}" />
+    <br/>
+    <a href="{{ member.website }}" target="_blank">Website</a>
+    <br/><br/>
+    {% endfor %}
+
+  <h2 class="page-heading">PhD Students</h2>
+    {% for member in site.data.members.phd.members %}
+
+    {{ member.name }}
+    <br/>
+    <img src="{{ member.picture_url }}" height="{{site.image_height}}" width="{{site.image_width}}" />
+    <br/>
+    <a href="{{ member.website }}" target="_blank">Website</a>
+    <br/><br/>
+    {% endfor %}
+
+  <h2 class="page-heading">MS Students</h2>
+    {% for member in site.data.members.ms.members %}
+
+    {{ member.name }}
+    <br/>
+    <img src="{{ member.picture_url }}" height="{{site.image_height}}" width="{{site.image_width}}" />
+    <br/>
+    <a href="{{ member.website }}" target="_blank">Website</a>
+    <br/><br/>
+    {% endfor %}
+
+  <h2 class="page-heading">Undergraduate Students</h2>
+    {% for member in site.data.members.undergrad.members %}
+
+    {{ member.name }}
+    <br/>
+    <img src="{{ member.picture_url }}" height="{{site.image_height}}" width="{{site.image_width}}" />
+    <br/>
+    <a href="{{ member.website }}" target="_blank">Website</a>
+    <br/><br/>
+    {% endfor %}
+
+
+  <h2 class="page-heading">Visiting Students</h2>
+    {% for member in site.data.members.visiting.members %}
+
+    {{ member.name }}
+    <br/>
+    <img src="{{ member.picture_url }}" height="{{site.image_height}}" width="{{site.image_width}}" />
+    <br/>
+    <a href="{{ member.website }}" target="_blank">Website</a>
+    <br/><br/>
+    {% endfor %}
+
+  <h2 class="page-heading">Alumni</h2>
+    {% for member in site.data.members.alumni.members %}
+
+    {{ member.name }}
+    <br/>
+    <img src="{{ member.picture_url }}" height="{{site.image_height}}" width="{{site.image_width}}" />
+    <br/>
+    <a href="{{ member.website }}" target="_blank">Website</a>
+    <br/><br/>
+    {% endfor %}
+
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+
+</div>
