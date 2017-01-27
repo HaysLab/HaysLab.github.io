@@ -12,11 +12,10 @@ description: > # this means to ignore newlines until "baseurl:"
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://hayslab.github.io" # the base hostname & protocol for your site
-twitter_username:
 github_username:  HaysLab
 
 # Build settings
 markdown: kramdown
 
 image_height: 200px
-image_width: 165px
+image_width: 195px
