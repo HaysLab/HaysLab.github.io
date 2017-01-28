@@ -16,6 +16,10 @@ layout: default
       </a>
       <div class="media-body update-card-body">
         <h4 class="media-heading">{{ member.name }}</h4>
+        {% if member.research_interests.size > 0 %}
+        <p class="text-lowercase">{{ member.research_interests }}</p>
+        {% endif %}
+
         <div class="btn-toolbar card-body-social" role="toolbar">
           <a href="{{ member.website }}" target="_blank">
             <div class="btn-group fa fa-globe website"></div>
@@ -31,6 +35,7 @@ layout: default
           </a>
           {% endif %}
         </div>
+
       </div>
     </div>
   </div>

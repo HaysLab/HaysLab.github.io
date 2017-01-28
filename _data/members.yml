@@ -5,6 +5,7 @@
       picture_url: http://www.cc.gatech.edu/~hays/imagedir/james_headshot2.jpg
       github_username:
       linkedin:
+      research_interests: computer graphics, computer vision, computational photography
 
 - name: PhD Students
   members:
@@ -13,24 +14,28 @@
       picture_url: http://www.cc.gatech.edu/~nvo9/me.jpg
       github_username: lugiavn
       linkedin:
+      research_interests: image ranking & geolocalization using deep learning
 
     - name: Patsorn Sangkloy
       website: http://www.cc.gatech.edu/~psangklo/
       picture_url: http://www.cc.gatech.edu/~psangklo/images/patsorn_pic2.jpg
       github_username: janesjanes
       linkedin:
+      research_interests:
 
     - name: Samarth Brahmbhatt
       website: http://www.cc.gatech.edu/~sbrahmbh/
       picture_url: http://www.cc.gatech.edu/~sbrahmbh/me.jpg
       github_username: samarth-robo
       linkedin:
+      research_interests:
 
     - name: Si Chen
       website: http://www.sichen.info/
       picture_url:
       github_username:
       linkedin:
+      research_interests:
 
 - name: Masters Students
   members:
@@ -39,24 +44,28 @@
       picture_url: http://www.gravatar.com/avatar/cc856652c4db97f4eacc9bffa6540ece?s=250
       github_username: varunagrawal
       linkedin: varagrawal
+      research_interests:
 
     - name: Vasavi Gajarla
       website: https://www.linkedin.com/in/vasavigajarla
       picture_url: https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAlAAAAAJDgwOTcyMGE4LTE2ZDItNGFiNS05MjE0LTlkMWMyMzgwNDk2ZA.jpg
       github_username: vasavig
       linkedin:
+      research_interests:
 
     - name: Laura Jeyaseelen
       website: https://www.prism.gatech.edu/~ljeyaseelan3/
       picture_url: https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/8/005/0b5/214/09e094e.jpg
       github_username: LauraJey
       linkedin:
+      research_interests:
 
     - name: Amit Raj
       website: https://www.linkedin.com/in/amitraj93
       picture_url: https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAARTAAAAJDZhNzI1YWI3LTBiODQtNGM0NS1iM2UwLWVmNTNkZDU3OWRjMg.jpg
       github_username: AmitRaj93
       linkedin:
+      research_interests:
 
 
 - name: Undergraduate Students
@@ -66,18 +75,21 @@
       picture_url: http://www.cusuh.me/images/me.jpg
       github_username: cusuh
       linkedin:
+      research_interests:
 
     - name: Lawrence Moore
       website: https://www.linkedin.com/in/larry-moore-b01b6972/
       picture_url:
       github_username: Lawrence-Moore
       linkedin:
+      research_interests:
 
     - name: Wenqi Xian
       website: https://www.linkedin.com/in/wenqixian/
       picture_url: https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAASjAAAAJDJjMzY2ZTJiLTY2N2QtNGQzYS1iYjQ4LTBlNWIxZWY0NmUyZg.jpg
       github_username:
       linkedin:
+      research_interests:
 
 - name: Visiting Students
   members:
