@@ -19,8 +19,9 @@ layout: default
         <div class="btn-toolbar card-body-social" role="toolbar">
           <a href="{{ member.website }}" target="_blank"><div class="btn-group fa fa-globe website"></div></a>
           {% if member.github_username.size > 0 %}
+          <div class="btn-group fa fa-github-alt git"></div>
           <a href="https://github.com/{{ member.github_username }}" target="_blank">
-            <div class="btn-group fa fa-github-alt git"></div>
+
           </a>
           {% endif %}
           {% if member.linkedin.size > 0 %}
