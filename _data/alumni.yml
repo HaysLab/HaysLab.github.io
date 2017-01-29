@@ -2,6 +2,5 @@ name: Alumni
 members:
   - name: Dr. Genevieve Patterson
     website: http://www.cc.gatech.edu/~hays/
-    picture_url:
-    github_username:
-    linkedin:
+    picture_url: https://avatars0.githubusercontent.com/u/1240286?v=3&s=460
+    current_role: Postdoc, Microsoft Research, New England

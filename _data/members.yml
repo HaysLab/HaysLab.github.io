@@ -27,13 +27,13 @@
       website: http://www.cc.gatech.edu/~sbrahmbh/
       picture_url: http://www.cc.gatech.edu/~sbrahmbh/me.jpg
       github_username: samarth-robo
-      linkedin:
-      research_interests:
+      linkedin: samarth-manoj-brahmbhatt-a145515b
+      research_interests: computer vision, robotics
 
     - name: Si Chen
       website: http://www.sichen.info/
       picture_url:
-      github_username:
+      github_username: schen496
       linkedin:
       research_interests:
 
@@ -79,7 +79,7 @@
 
     - name: Lawrence Moore
       website: https://www.linkedin.com/in/larry-moore-b01b6972/
-      picture_url:
+      picture_url: https://avatars3.githubusercontent.com/u/8570566?v=3&s=460
       github_username: Lawrence-Moore
       linkedin:
       research_interests:
