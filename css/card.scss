@@ -19,13 +19,14 @@
     background-color: #FFFFFF;
     display: block;
 }
-.block-update-card .update-card-MDimentions {
-    width: 100px;
-    height: 100px;
+.block-update-card .update-card-image {
+    width: 110px;
+    height: 130px;
 }
 .block-update-card .update-card-body {
     margin-top: 10px;
     margin-left: 5px;
+    padding-top: 5px;
 }
 .block-update-card .update-card-body h4 {
     color: #737373;
@@ -160,10 +161,19 @@ Creating a block for social media buttons
     padding: 16px;
 }
 .card .card-action a {
-    color: #ffab40;
     margin-right: 16px;
     transition: color 0.3s ease;
     text-transform: uppercase;
+}
+
+.card .card-action a.page {
+    color: #43A047;
+}
+.card .card-action a.paper {
+    color: #673AB7;
+}
+.card .card-action a.video {
+    color: #D32F2F;
 }
 .card .card-action a:hover {
     color: #ffd8a6;

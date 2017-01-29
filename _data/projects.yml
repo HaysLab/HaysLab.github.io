@@ -1,0 +1,25 @@
+# NOTE: If you have to use a colon in your text, please enclose it in quotes so that YAML does not get confused.
+
+- name: Localizing and Orienting Street Views Using Overhead Imagery
+  image_url: http://www.cc.gatech.edu/~nvo9/crossview_eccv2016/problem.png
+  authors: Nam Vo, James Hays
+  published: ECCV 2016
+  project_page: http://www.cc.gatech.edu/~nvo9/crossview_eccv2016/
+  paper: http://www.cc.gatech.edu/~nvo9/crossview_eccv2016/nam_eccv2016.pdf
+  video:
+
+- name: "The Sketchy Database: Learning to Retrieve Badly Drawn Bunnies"
+  image_url: http://www.cc.gatech.edu/~hays/research/sketchy.png
+  authors: Patsorn Sangkloy, Nathan Burnell, Cusuh Ham, James Hays
+  published: SIGGRAPH 2016
+  project_page: http://sketchy.eye.gatech.edu/
+  paper: http://sketchy.eye.gatech.edu/paper.pdf
+  video: https://youtu.be/TnU3VzXxEh4
+
+- name: "COCO Attributes: Attributes for People, Animals, and Objects"
+  image_url: http://cs.brown.edu/~gen/website_imgs/grid_img_h_sm.png
+  authors: Genevieve Patterson, James Hays
+  published: ECCV 2016
+  project_page: http://cs.brown.edu/~gen/cocottributes.html
+  paper: http://www.cc.gatech.edu/~hays/papers/coco_attributes.pdf
+  video:

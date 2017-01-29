@@ -5,26 +5,35 @@ permalink: /projects/
 ---
 
 <div class="container">
+    {% for project in site.data.projects %}
     <div class="row">
         <!-- Card Projects -->
         <div class="col-md-6 col-md-offset-0">
             <div class="card">
+                {% if project.image_url.size > 0 %}
                 <div class="card-image">
-                    <img class="img-responsive" src="http://www.cc.gatech.edu/~hays/compvision/comp_vision_teaser_by_kirkh.jpg">
+                    <img class="img-responsive" src="{{ project.image_url }}">
                     <!--span class="card-title">Sample Title</span-->
                 </div>
+                {% endif %}
 
                 <div class="card-content">
-                    <h3>Scribbler</h3>
-                    <p>Patsorn Sangkloy, James Hays</p>
+                    <h4>{{ project.name }}</h4>
+                    <p>{{ project.authors }}</p>
                 </div>
 
                 <div class="card-action">
-                    <a href="#" target="new_blank">Project Page</a>
-                    <a href="#" target="new_blank">Paper</a>
-                    <a href="#" target="new_blank">Video</a>
+                    <a class="page" href="{{ project.project_page }}" target="new_blank"><i class="fa fa-external-link"></i></a>
+                    {% if project.paper.size > 0 %}
+                    <a class="paper" href="{{ project.paper }}" target="new_blank"><i class="fa fa-file-text"></i></a>
+                    {% endif %}
+                    {% if project.video.size > 0 %}
+                    <a class="video" href="{{ project.video }}" target="new_blank"><i class="fa fa-youtube-play"></i></a>
+                    {% endif %}
                 </div>
             </div>
         </div>
     </div>
+    <br/>
+    {% endfor %}
 </div>
