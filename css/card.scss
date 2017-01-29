@@ -2,7 +2,7 @@
 ---
 
 .contact-card {
-  height: 130px;
+  height: 100%;
   border: 1px #FFFFFF solid;
   @media (max-width: 480px) {
     width: 310px;
@@ -14,6 +14,7 @@
   float: left;
   margin-left: 10px;
   margin-top: 0;
+  margin-bottom: 10px;
   padding: 0;
   background-color: #FFFFFF;
   display: block;
@@ -60,6 +61,7 @@ Creating a block for social media buttons
   font-size: 25px;
   margin-top: 10px;
   margin-left: 5px;
+  margin-bottom: 10px;
 }
 .card-body-social .website {
   color: teal;
