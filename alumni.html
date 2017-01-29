@@ -18,12 +18,13 @@ permalink: /alumni/
             <h4 class="media-heading">{{ member.name }}</h4>
             <p class="">{{ member.current_role }}</p>
             <div class="btn-toolbar card-body-social" role="toolbar">
+                {% if member.website.size > 0 %}
                 <a href="{{ member.website }}" target="_blank"><div class="btn-group fa fa-globe website"></div></a>
+                {% endif %}
             </div>
         </div>
     </div>
 </div>
 
-<br/>
 
 {% endfor %}
