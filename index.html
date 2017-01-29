@@ -11,7 +11,7 @@ layout: default
   <div class="row">
     <div class="media block-update-card">
       <a class="pull-left" href="#">
-        <img class="media-object update-card-MDimentions" src="{{ member.picture_url }}"
+        <img class="media-object update-card-image" src="{{ member.picture_url }}"
              alt="headshot" />
       </a>
       <div class="media-body update-card-body">
@@ -50,11 +50,12 @@ layout: default
   <div class="row">
     <div class="media block-update-card">
       <a class="pull-left" href="#">
-        <img class="media-object update-card-MDimentions" src="{{ member.picture_url }}"
+        <img class="media-object update-card-image" src="{{ member.picture_url }}"
              alt="headshot" />
       </a>
       <div class="media-body update-card-body">
         <h4 class="media-heading">{{ member.name }}</h4>
+        <p class="">{{ member.current_role }}</p>
         <div class="btn-toolbar card-body-social" role="toolbar">
           <a href="{{ member.website }}" target="_blank"><div class="btn-group fa fa-globe website"></div></a>
         </div>
