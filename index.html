@@ -10,10 +10,12 @@ layout: default
   {% for member in group.members %}
   <div class="row">
     <div class="media card contact-card">
+      {% if member.picture_url.size > 0 %}
       <a class="pull-left" href="#">
         <img class="media-object contact-card-image" src="{{ member.picture_url }}"
              alt="headshot" />
       </a>
+      {% endif %}
       <div class="media-body contact-card-body">
         <h4 class="media-heading">{{ member.name }}</h4>
         {% if member.research_interests.size > 0 %}
@@ -45,28 +47,6 @@ layout: default
   {% endfor %}
   {% endfor %}
 
-  <h2 class="page-heading">Alumni</h2>
-  {% for member in site.data.alumni.members %}
-
-  <div class="row">
-    <div class="media card contact-card">
-      <a class="pull-left" href="#">
-        <img class="media-object contact-card-image" src="{{ member.picture_url }}"
-             alt="headshot" />
-      </a>
-      <div class="media-body contact-card-body">
-        <h4 class="media-heading">{{ member.name }}</h4>
-        <p class="">{{ member.current_role }}</p>
-        <div class="btn-toolbar card-body-social" role="toolbar">
-          <a href="{{ member.website }}" target="_blank"><div class="btn-group fa fa-globe website"></div></a>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <br/>
-
-  {% endfor %}
 
 
 </div>
