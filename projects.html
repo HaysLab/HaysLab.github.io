@@ -4,11 +4,12 @@ title: Projects
 permalink: /projects/
 ---
 
-<div class="container">
+<div class="">
+
     {% for project in site.data.projects %}
     <div class="row">
         <!-- Card Projects -->
-        <div class="col-md-6 col-md-offset-0">
+        <div class="col-md-7 col-md-offset-0">
             <div class="card">
                 {% if project.image_url.size > 0 %}
                 <div class="card-image">
@@ -23,12 +24,12 @@ permalink: /projects/
                 </div>
 
                 <div class="card-action">
-                    <a class="page" href="{{ project.project_page }}" target="new_blank"><i class="fa fa-external-link"></i></a>
+                    <a class="page" href="{{ project.project_page }}" target="new_blank"><i class="fa fa-external-link fa-lg"></i></a>
                     {% if project.paper.size > 0 %}
-                    <a class="paper" href="{{ project.paper }}" target="new_blank"><i class="fa fa-file-text"></i></a>
+                    <a class="paper" href="{{ project.paper }}" target="new_blank"><i class="fa fa-file-text fa-lg"></i></a>
                     {% endif %}
                     {% if project.video.size > 0 %}
-                    <a class="video" href="{{ project.video }}" target="new_blank"><i class="fa fa-youtube-play"></i></a>
+                    <a class="video" href="{{ project.video }}" target="new_blank"><i class="fa fa-youtube-play fa-lg"></i></a>
                     {% endif %}
                 </div>
             </div>
@@ -36,4 +37,5 @@ permalink: /projects/
     </div>
     <br/>
     {% endfor %}
+
 </div>
