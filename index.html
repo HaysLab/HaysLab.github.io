@@ -33,7 +33,7 @@ layout: default
           </a>
           {% endif %}
           {% if member.linkedin.size > 0 %}
-          <a href="https://www.linkedin.com/in/varagrawal/{{ member.linkedin }}" target="_blank">
+          <a href="https://www.linkedin.com/in/{{ member.linkedin }}" target="_blank">
             <div class="btn-group linkedin fa fa-linkedin-square"></div>
           </a>
           {% endif %}
@@ -43,7 +43,6 @@ layout: default
     </div>
   </div>
 
-  <br/>
   {% endfor %}
   {% endfor %}
 
