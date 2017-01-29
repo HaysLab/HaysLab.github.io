@@ -1,6 +1,18 @@
 name: Alumni
 members:
-  - name: Dr. Genevieve Patterson
-    website: http://www.cc.gatech.edu/~hays/
-    picture_url: https://avatars0.githubusercontent.com/u/1240286?v=3&s=460
-    current_role: Postdoc, Microsoft Research, New England
+  - name: Genevieve Patterson
+    website: http://cs.brown.edu/~gen/
+    picture_url: http://cs.brown.edu/~gen/website_imgs/portrait.jpg
+    current_role: Postdoc at Microsoft Research, New England
+  - name: Pierre-Yves Laffont
+    website: https://graphics.ethz.ch/~plaffont/
+    picture_url: https://graphics.ethz.ch/~plaffont/images/photo_py.jpg
+    current_role: Postdoctoral researcher at ETH Zürich
+  - name: Geoffrey Libin Sun
+    website: http://cs.brown.edu/people/lbsun/
+    picture_url: http://cs.brown.edu/people/lbsun/images/me.jpg
+    current_role: Research Scientist at light
+  - name: Zhile Ren
+    website: http://cs.brown.edu/~ren/
+    picture_url: http://cs.brown.edu/~ren/face.jpg
+    current_role: PhD student with Erik Sudderth
