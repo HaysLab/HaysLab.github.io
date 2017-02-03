@@ -21,6 +21,9 @@ permalink: /projects/
                 <div class="card-content">
                     <h4>{{ project.name }}</h4>
                     <p>{{ project.authors }}</p>
+                    {% if project.published.size > 0 %}
+                    <p><i>{{ project.published }}</i></p>
+                    {% endif %}
                 </div>
 
                 <div class="card-action">
