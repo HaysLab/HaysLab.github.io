@@ -1,5 +1,13 @@
 # NOTE: If you have to use a colon in your text, please enclose it in quotes so that YAML does not get confused.
 
+- name: "Scribbler: Controlling Deep Image Synthesis with Sketch and Color"
+  image_url: http://scribbler.eye.gatech.edu/img/paper_figure.png
+  authors: Patsorn Sangkloy, Jingwan Lu, Chen Fang, Fisher Yu, James Hays
+  published: 
+  project_page: http://scribbler.eye.gatech.edu/
+  paper: http://scribbler.eye.gatech.edu/paper.pdf
+  video:
+
 - name: Localizing and Orienting Street Views Using Overhead Imagery
   image_url: http://www.cc.gatech.edu/~nvo9/crossview_eccv2016/problem.png
   authors: Nam Vo, James Hays
