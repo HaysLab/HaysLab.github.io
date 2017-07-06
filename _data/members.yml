@@ -5,7 +5,7 @@
       picture_url: http://gvu.gatech.edu/sites/default/files/styles/medium/public/james_hays.png
       github_username:
       linkedin:
-      research_interests: computer graphics, computer vision, computational photography
+      research_interests: computer vision, computer graphics, computational photography
 
 - name: PhD Students
   members:
@@ -37,15 +37,15 @@
       linkedin: sichensc
       research_interests:
 
-- name: Masters Students
-  members:
     - name: Varun Agrawal
       website: http://www.varunagrawal.me/
       picture_url: http://www.gravatar.com/avatar/cc856652c4db97f4eacc9bffa6540ece?s=250
       github_username: varunagrawal
       linkedin: varagrawal
-      research_interests: visual attribute classification
+      research_interests: scene understanding
 
+- name: Masters Students
+  members:
     - name: Vasavi Gajarla
       website: https://www.linkedin.com/in/vasavigajarla
       picture_url: https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAlAAAAAJDgwOTcyMGE4LTE2ZDItNGFiNS05MjE0LTlkMWMyMzgwNDk2ZA.jpg
@@ -58,7 +58,7 @@
       picture_url: https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/8/005/0b5/214/09e094e.jpg
       github_username: LauraJey
       linkedin: laurajeyaseelan
-      research_interests: Image completion & inpainting
+      research_interests: image completion & inpainting
 
     - name: Amit Raj
       website: https://www.linkedin.com/in/amitraj93

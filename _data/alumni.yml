@@ -6,8 +6,8 @@ members:
     current_role: Postdoc at Microsoft Research, New England
   - name: Pierre-Yves Laffont
     website: https://graphics.ethz.ch/~plaffont/
-    picture_url: https://graphics.ethz.ch/~plaffont/images/photo_py.jpg
-    current_role: Postdoctoral researcher at ETH Zürich
+    picture_url: http://www.py-laffont.info/images/photo_py.jpg
+    current_role: Postdoc at ETH Zürich
   - name: Geoffrey Libin Sun
     website: http://cs.brown.edu/people/lbsun/
     picture_url: http://cs.brown.edu/people/lbsun/images/me.jpg
