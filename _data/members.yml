@@ -44,31 +44,14 @@
       linkedin: varagrawal
       research_interests: scene understanding
 
-- name: Masters Students
-  members:
-    - name: Vasavi Gajarla
-      website: https://www.linkedin.com/in/vasavigajarla
-      picture_url: https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAlAAAAAJDgwOTcyMGE4LTE2ZDItNGFiNS05MjE0LTlkMWMyMzgwNDk2ZA.jpg
-      github_username: vasavig
-      linkedin: vasavigajarla
-      research_interests: text to image generation
-
-    - name: Laura Jeyaseelen
-      website: https://www.prism.gatech.edu/~ljeyaseelan3/
-      picture_url: https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/8/005/0b5/214/09e094e.jpg
-      github_username: LauraJey
-      linkedin: laurajeyaseelan
-      research_interests: image completion & inpainting
-
     - name: Amit Raj
       website: https://www.linkedin.com/in/amitraj93
       picture_url: https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAARTAAAAJDZhNzI1YWI3LTBiODQtNGM0NS1iM2UwLWVmNTNkZDU3OWRjMg.jpg
       github_username: AmitRaj93
       linkedin:
-      research_interests: image captioning
+      research_interests: image synthesis
 
-
-- name: Undergraduate Students
+- name: Masters Students
   members:
     - name: Cusuh Ham
       website: http://www.cusuh.me/
@@ -76,20 +59,21 @@
       github_username: cusuh
       linkedin: cusuh
       research_interests: image synthesis
+    - name: Wengling Chen
+      website:
+      picture_url: https://ui-avatars.com/api/?name=Wengling%20Chen
+      github_username:
+      linkedin:
+      research_interests: sketch to photo
 
-    - name: Lawrence Moore
-      website: https://lawrence-moore.github.io/
-      picture_url: https://avatars3.githubusercontent.com/u/8570566?v=3&s=460
-      github_username: Lawrence-Moore
-      linkedin: lawrence-moore-723b87a2
-      research_interests: real time object detection
-
+- name: Undergraduate Students
+  members:
     - name: Wenqi Xian
       website: https://www.linkedin.com/in/wenqixian/
       picture_url: https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAASjAAAAJDJjMzY2ZTJiLTY2N2QtNGQzYS1iYjQ4LTBlNWIxZWY0NmUyZg.jpg
       github_username:
       linkedin:
-      research_interests:
+      research_interests: texture synthesis
 
 - name: Visiting Students
   members:
