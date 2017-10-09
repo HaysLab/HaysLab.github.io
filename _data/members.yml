@@ -65,7 +65,13 @@
       github_username:
       linkedin:
       research_interests: sketch to photo
-
+    - name: Jianan Gao
+      website:
+      picture_url: https://i.stack.imgur.com/yfsJB.png
+      github_username:
+      linkedin: jianan-gao
+      research_interests: small objects detection and tracking, vision theory
+      
 - name: Undergraduate Students
   members:
     - name: Wenqi Xian
